@@ -113,7 +113,7 @@ width: 300px;
 
 .info-para-1 p {
     border-left: 1px solid black;
-    padding: 5px;
+    padding: 20px;
 }
 .info-right{
     display: flex;
@@ -176,12 +176,21 @@ width: 300px;
     border: 2px solid black;
     width: 300px;
     text-align: center;
+    border-radius: 26px;
+    background: linear-gradient(315deg, #e3e3e3, #ffffff);
+    box-shadow:  -35px -35px 100px #f9f9f9,
+                 35px 35px 100px #ffffff;
 }
 .Branding{
     border: 2px solid black;
     width: 300px;
     text-align: center;
     height: 300px;
+    border-radius: 26px;
+    background: linear-gradient(315deg, #e3e3e3, #ffffff);
+    box-shadow:  -35px -35px 100px #f9f9f9,
+                 35px 35px 100px #ffffff;
+                 text-decoration: none;
    
     
 }
@@ -223,6 +232,11 @@ button{
     text-align: center;
     height: 300px;
     margin-top: 30px;
+    border-radius: 26px;
+    border-radius: 26px;
+    background: linear-gradient(315deg, #e3e3e3, #ffffff);
+    box-shadow:  -35px -35px 100px #f9f9f9,
+                 35px 35px 100px #ffffff;
 }
 .mobile{
     text-align: end;
@@ -233,6 +247,10 @@ button{
     width: 300px;
     text-align: center;
     height: 300px;
+    border-radius: 26px;
+background: linear-gradient(315deg, #e3e3e3, #ffffff);
+box-shadow:  -35px -35px 100px #f9f9f9,
+             35px 35px 100px #ffffff;
 }
 .Gogle{
     text-align: end;
@@ -363,3 +381,20 @@ row-gap: 10px;
     padding: 30px;
     justify-content: center;
 }
+.nav{
+    margin-top: 1px;
+    background-color: #ecebeb;
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+    margin-left: 50px;
+    margin-right: 5px;
+    padding: 1px;
+}
+.img{
+    display: block;
+    width: 100%;
+    transform: rotate(10deg) translateY(80px);
+    transition: all ease 0.5s;
+}
+
